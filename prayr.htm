@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع وقت الصلاة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        iframe {
+            width: 100%;
+            height: 440px;
+            border: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #777;
+        }
+
+        /* زر العودة للصفحة الرئيسية */
+        .home-button {
+            display: inline-block;
+            padding: 2px 8px;
+            font-size: 25px;
+            background-color: #ff0000;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, transform 0.2s;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+        }
+
+        .home-button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>موقع وقت الصلاة</h1>
+
+    <div class="container">
+        <iframe id="iframe2" src="https://timesprayer.today/widget_frame.php?frame=2&amp;id=8198&amp;sound=false"></iframe>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة لموقع وقت الصلاة</p>
+        
+        <!-- زر العودة للصفحة الرئيسية -->
+        <a href="index.html" class="home-button">العودة</a>
+    </footer>
+
+</body>
+</html>
